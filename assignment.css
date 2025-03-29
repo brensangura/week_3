@@ -1,0 +1,82 @@
+---1. selecting by id
+#header {
+    background-color: blue;
+    padding: 10px;
+  }
+
+
+--  2. Selecting by Class (.)
+
+.button {
+  color: white;
+  background: black;
+}
+
+--- 3. Selecting by element name(element selector)
+header {
+    font-size: 24px;
+  }
+
+  ---4. Universal selector (*)
+  * {
+    margin: 0; /* Resets margin for ALL elements */
+  }
+
+  ---4. Type Selector (element name)
+
+  header {
+    font-size: 24px;
+  }
+
+  Key Takeaways:
+#header → Unique ID.
+.header → Reusable class.
+header → HTML tag.
+* → "Select everything".
+@ → Special CSS rules.
+
+
+
+---changing the color of the text in css
+p {
+    color: red; /* Changes text color to red */
+  }
+
+---changing the background color of the text in css
+p {
+    background-color: yellow; /* Changes background color to yellow */
+  }
+---changing the font size of the text in css        
+p {
+    font-size: 20px; /* Changes font size to 20 pixels */
+  }
+---changing the font family of the text in css
+p {
+    font-family: Arial, sans-serif; /* Changes font to Arial or sans-serif */
+  }
+
+
+
+---- To apply inline CSS to an HTML element, use the style attribute directly within the element’s opening tag. Here’s how:
+
+--- Syntax:
+<element style="property: value; property2: value2;">...</element>
+
+
+--- Example:
+<!-- Changing text color and font size -->
+<p style="color: red; font-size: 16px;">This text is red and 16px.</p>
+
+<!-- Adding a background color to a div -->
+<div style="background-color: lightblue; padding: 10px;">
+  This div has a light blue background.
+</div>
+
+
+The <link> element is used in the <head> section of an HTML document to link external resources like CSS files.
+
+Example:
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
